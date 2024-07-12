@@ -73,7 +73,7 @@ int main()
 
     do
     {
-        // Menampilkan menu 
+        // Menampilkan menu add do while
         cout << "\nPilih Menu:";
         cout << "\n1. Tambah Barang Baru";
         cout << "\n2. Tambah Stok";
@@ -91,7 +91,7 @@ int main()
             cout << "Pilihan tidak valid. Silakan pilih menu (1-6): ";
         }
 
-        // Percabangan untuk memproses pilihan menu 101010
+        // Percabangan untuk memproses pilihan menu 
         switch (pilihan)
         {
         case 1:
