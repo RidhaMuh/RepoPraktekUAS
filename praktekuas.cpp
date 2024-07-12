@@ -73,7 +73,7 @@ int main()
 
     do
     {
-        // Menampilkan menu 888
+        // Menampilkan menu 
         cout << "\nPilih Menu:";
         cout << "\n1. Tambah Barang Baru";
         cout << "\n2. Tambah Stok";
@@ -83,11 +83,11 @@ int main()
         cout << "\n6. Keluar";
         cout << "\nPilih menu (1-6): ";
 
-        // Memeriksa apakah input adalah angka
+        // Memeriksa apakah input adalah angka 999
         while (!(cin >> pilihan))
         {
-            cin.clear();                                         // Menghapus flag kesalahan
-            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Mengabaikan input yang salah
+            cin.clear();                                         
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
             cout << "Pilihan tidak valid. Silakan pilih menu (1-6): ";
         }
 
