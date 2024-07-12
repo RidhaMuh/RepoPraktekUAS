@@ -13,14 +13,14 @@ struct Gudang
     string satuan; // Menambahkan satuan pada struct Gudang 
 };
 
-// Fungsi untuk menambah stok barang a
+// Fungsi untuk menambah stok barang 
 void tambahStok(Gudang &barang, int jumlah)
 {
     barang.stok += jumlah;
     cout << "Stok " << barang.nama_barang << " bertambah sebanyak " << jumlah << " " << barang.satuan << ". Stok saat ini: " << barang.stok << " " << barang.satuan << endl;
 }
 
-// Fungsi untuk mengurangi stok barang
+// Fungsi untuk mengurangi stok barang 4
 void kurangiStok(Gudang &barang, int jumlah)
 {
     if (barang.stok >= jumlah)
