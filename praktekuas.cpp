@@ -40,23 +40,23 @@ void cekStok(Gudang &barang)
     cout << "Stok " << barang.nama_barang << " di gudang adalah " << barang.stok << " " << barang.satuan << endl;
 }
 
-// Fungsi untuk menambah barang baru 666
+// Fungsi untuk menambah barang baru 
 void tambahBarang(vector<Gudang> &gudang)
 {
     Gudang barangBaru;
     cout << "Masukkan nama barang baru: ";
-    cin.ignore(); // Mengabaikan karakter newline dari input sebelumnya
+    cin.ignore(); 
     getline(cin, barangBaru.nama_barang);
     cout << "Masukkan jumlah stok awal: ";
     cin >> barangBaru.stok;
-    cin.ignore(); // Mengabaikan karakter newline setelah input integer
+    cin.ignore(); 
     cout << "Masukkan satuan (misalnya: box, buah, biji): ";
     getline(cin, barangBaru.satuan);
     gudang.push_back(barangBaru);
     cout << "Barang baru berhasil ditambahkan.\n";
 }
 
-// Fungsi untuk menampilkan daftar barang
+// Fungsi untuk menampilkan daftar barang 777
 void daftarBarang(const vector<Gudang> &gudang)
 {
     cout << "Daftar Barang di Gudang:\n";
