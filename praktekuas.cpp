@@ -13,7 +13,7 @@ struct Gudang
     string satuan; // Menambahkan satuan pada struct Gudang 
 };
 
-// Fungsi untuk menambah stok barang
+// Fungsi untuk menambah stok barang a
 void tambahStok(Gudang &barang, int jumlah)
 {
     barang.stok += jumlah;
