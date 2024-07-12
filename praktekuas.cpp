@@ -83,7 +83,7 @@ int main()
         cout << "\n6. Keluar";
         cout << "\nPilih menu (1-6): ";
 
-        // Memeriksa apakah input adalah angka 999
+        // Memeriksa apakah input adalah angka 
         while (!(cin >> pilihan))
         {
             cin.clear();                                         
@@ -91,7 +91,7 @@ int main()
             cout << "Pilihan tidak valid. Silakan pilih menu (1-6): ";
         }
 
-        // Percabangan untuk memproses pilihan menu
+        // Percabangan untuk memproses pilihan menu 101010
         switch (pilihan)
         {
         case 1:
